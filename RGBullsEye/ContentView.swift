@@ -19,15 +19,24 @@ struct ContentView: View {
             Color(rgbStruct: guess)
             Text(guess.intString())
                 .padding()
-            HStack {
-                Text("0")
-                Slider(value: $guess.red)
-                    .accentColor(.red)
-                Text("255")
-            }
-            .padding(.horizontal)
+            ColorSlider(value: $guess.red, trackColor: .red)
             Button("Hit Me!") {}
         }
+    }
+}
+
+struct ColorSlider: View {
+    @Binding var value: Double
+    var trackColor: Color
+
+    var body: some View {
+        HStack {
+            Text("0")
+            Slider(value: $value)
+                .accentColor(trackColor)
+            Text("255")
+        }
+        .padding(.horizontal)
     }
 }
 
