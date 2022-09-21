@@ -14,6 +14,7 @@
 		F43613D428D97EE60022464D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43613D328D97EE60022464D /* Game.swift */; };
 		F43613D628D97EFE0022464D /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43613D528D97EFE0022464D /* RGB.swift */; };
 		F43613D828D97F070022464D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43613D728D97F070022464D /* ColorExtension.swift */; };
+		F478036B28DAE94100C9A690 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478036A28DAE94100C9A690 /* ColorCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		F43613D328D97EE60022464D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		F43613D528D97EFE0022464D /* RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
 		F43613D728D97F070022464D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		F478036A28DAE94100C9A690 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		F478036C28DAEC9900C9A690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +60,10 @@
 		F43613C428D9625B0022464D /* RGBullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				F478036C28DAEC9900C9A690 /* Info.plist */,
 				F43613C528D9625B0022464D /* RGBullsEyeApp.swift */,
 				F43613C728D9625B0022464D /* ContentView.swift */,
+				F478036A28DAE94100C9A690 /* ColorCircle.swift */,
 				F43613D928D9822C0022464D /* Model */,
 				F43613C928D9625C0022464D /* Assets.xcassets */,
 				F43613CB28D9625C0022464D /* Preview Content */,
@@ -159,6 +164,7 @@
 				F43613C628D9625B0022464D /* RGBullsEyeApp.swift in Sources */,
 				F43613D628D97EFE0022464D /* RGB.swift in Sources */,
 				F43613D828D97F070022464D /* ColorExtension.swift in Sources */,
+				F478036B28DAE94100C9A690 /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,9 +296,9 @@
 				DEVELOPMENT_TEAM = 4SKJAJR837;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RGBullsEye/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,9 +325,9 @@
 				DEVELOPMENT_TEAM = 4SKJAJR837;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RGBullsEye/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
