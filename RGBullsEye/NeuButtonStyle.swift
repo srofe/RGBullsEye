@@ -20,6 +20,7 @@ struct NeuButtonStyle: ButtonStyle {
                     if configuration.isPressed {
                         Capsule()
                             .fill(Color.element)
+                            .sourEastShadow()
                     } else {
                         Capsule()
                             .fill(Color.element)
