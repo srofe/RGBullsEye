@@ -17,6 +17,7 @@
 		F478036B28DAE94100C9A690 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478036A28DAE94100C9A690 /* ColorCircle.swift */; };
 		F478036E28DAF53E00C9A690 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478036D28DAF53E00C9A690 /* ViewExtension.swift */; };
 		F48CD3FB28DB078E0079D62B /* NeuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CD3FA28DB078E0079D62B /* NeuButtonStyle.swift */; };
+		F48CD3FD28DB0BA60079D62B /* BevelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CD3FC28DB0BA60079D62B /* BevelText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F478036C28DAEC9900C9A690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F478036D28DAF53E00C9A690 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		F48CD3FA28DB078E0079D62B /* NeuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuButtonStyle.swift; sourceTree = "<group>"; };
+		F48CD3FC28DB0BA60079D62B /* BevelText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevelText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				F478036A28DAE94100C9A690 /* ColorCircle.swift */,
 				F478036D28DAF53E00C9A690 /* ViewExtension.swift */,
 				F48CD3FA28DB078E0079D62B /* NeuButtonStyle.swift */,
+				F48CD3FC28DB0BA60079D62B /* BevelText.swift */,
 				F43613D928D9822C0022464D /* Model */,
 				F43613C928D9625C0022464D /* Assets.xcassets */,
 				F43613CB28D9625C0022464D /* Preview Content */,
@@ -167,6 +170,7 @@
 			files = (
 				F43613C828D9625B0022464D /* ContentView.swift in Sources */,
 				F43613D428D97EE60022464D /* Game.swift in Sources */,
+				F48CD3FD28DB0BA60079D62B /* BevelText.swift in Sources */,
 				F43613C628D9625B0022464D /* RGBullsEyeApp.swift in Sources */,
 				F478036E28DAF53E00C9A690 /* ViewExtension.swift in Sources */,
 				F48CD3FB28DB078E0079D62B /* NeuButtonStyle.swift in Sources */,

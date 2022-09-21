@@ -19,14 +19,14 @@ struct ContentView: View {
             VStack {
                 ColorCircle(fillColor: game.target, size: 200)
                 if showScore {
-                    Text(game.target.intString)
+                    BevelText(text: game.target.intString, width: 200, height: 48)
                         .padding()
                 } else {
-                    Text("R: ??? G: ??? B: ???")
+                    BevelText(text: "R: ??? G: ??? B: ???", width: 200, height: 48)
                         .padding()
                 }
                 ColorCircle(fillColor: guess, size: 200)
-                Text(guess.intString)
+                BevelText(text: guess.intString, width: 200, height: 48)
                     .padding()
                 ColorSlider(value: $guess.red, trackColor: .red)
                 ColorSlider(value: $guess.green, trackColor: .green)
