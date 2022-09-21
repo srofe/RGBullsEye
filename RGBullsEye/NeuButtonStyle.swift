@@ -16,8 +16,16 @@ struct NeuButtonStyle: ButtonStyle {
             .opacity(configuration.isPressed ? 0.2 : 1)
             .frame(width: width, height: height)
             .background(
-                Capsule()
-                    .fill(Color.element)
-                    .northWestShadow())
+                Group {
+                    if configuration.isPressed {
+                        Capsule()
+                            .fill(Color.element)
+                    } else {
+                        Capsule()
+                            .fill(Color.element)
+                            .northWestShadow()
+                    }
+                }
+            )
     }
 }
