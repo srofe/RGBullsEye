@@ -12,16 +12,25 @@ struct ColorCircle: View {
     var size: CGFloat
 
     var body: some View {
-        Circle()
-            .fill(Color(rgbStruct: fillColor))
-            .frame(width: size, height: size)
+        ZStack {
+            Circle()
+                .fill(Color.element)
+                .northWestShadow()
+            Circle()
+                .fill(Color(rgbStruct: fillColor))
+                .padding(20)
+        }
+        .frame(width: size, height: size)
     }
 }
 
 struct ColorCircle_Previews: PreviewProvider {
     static var previews: some View {
-        ColorCircle(fillColor: RGB(), size: 200)
-            .frame(width: 300, height: 300)
-            .previewLayout(.sizeThatFits)
+        ZStack {
+            Color.element
+            ColorCircle(fillColor: RGB(), size: 200)
+        }
+        .frame(width: 300, height: 300)
+        .previewLayout(.sizeThatFits)
     }
 }
