@@ -13,6 +13,7 @@ struct NeuButtonStyle: ButtonStyle {
 
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
+            .opacity(configuration.isPressed ? 0.2 : 1)
             .frame(width: width, height: height)
             .background(
                 Capsule()
