@@ -20,6 +20,8 @@ struct ContentView: View {
             Text(guess.intString())
                 .padding()
             ColorSlider(value: $guess.red, trackColor: .red)
+            ColorSlider(value: $guess.green, trackColor: .green)
+            ColorSlider(value: $guess.blue, trackColor: .blue)
             Button("Hit Me!") {}
         }
     }
@@ -42,6 +44,6 @@ struct ColorSlider: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(guess: RGB(red: 0.8, green: 0.3, blue: 0.7))
+        ContentView(guess: RGB())
     }
 }
