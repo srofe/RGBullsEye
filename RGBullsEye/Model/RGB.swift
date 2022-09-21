@@ -29,7 +29,7 @@ struct RGB {
         return sqrt((rDiff * rDiff + gDiff * gDiff + bDiff * bDiff) / 3.0)
     }
 
-    func intString() -> String {
+    var intString: String {
         "R: \(Int(red * 255.0)) G: \(Int(green * 255.0)) B: \(Int(blue * 255.0))"
     }
 }
