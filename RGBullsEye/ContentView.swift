@@ -47,6 +47,7 @@ struct ContentView: View {
                     )
                 }
             }
+            .font(.headline)
         }
     }
 }
@@ -62,6 +63,7 @@ struct ColorSlider: View {
                 .accentColor(trackColor)
             Text("255")
         }
+        .font(.subheadline)
         .padding(.horizontal)
     }
 }
